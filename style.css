@@ -1,9 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* to  use the box model*/
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; /* to use the box model*/
 }
 body{
-    font-family: "Merriweather", serif;
-    background-color:#ebf2ff  ;
+    font-family: "merriweather",serif;
+    background-color: #ebf2ff;
 }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    background-color: #fff;
+}
+/* we should not give the width directly to the image we have to set width as we thinking and give 100% width for the image */
+ 
+.navbar__brand{
+    width: 100px;
+    }
+   
+   .navbar__logo{
+       width: 100%;
+   }
+   .nav__item{
+       background-image: linear-gradient(
+           to right,
+           #ff512F 0%,
+           #dd2476 51%,
+           #ff512f 100%
+       );
+       color: white;
+       border: none;
+       padding: 8px;
+     border-radius: 3px;
+     cursor: pointer;
+   }
+   .nav__item:hover{
+        border: 2px solid blue;
+   }
+   @media (min-width:768px){
+       .navbar{
+       justify-content: space-between;
+       padding: 10px 30px;
+       }
+   }
+   @media (min-width:1020){
+       .navbar__brand{
+           width:150px ;
+       }
+       .nav__item{
+           padding: 10px;
+           font-size: 10px;
+
+       }
+   }
