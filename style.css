@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* to  use the box model*/
+}
+body{
+    font-family: "Merriweather", serif;
+    background-color:#ebf2ff  ;
+}
