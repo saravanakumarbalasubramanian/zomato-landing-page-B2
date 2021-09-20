@@ -76,6 +76,23 @@
     margin: 20px 0;
   }
   /*end*/
+
+  /* food card*/
+  .food__card{
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .food__card__image__container{
+    width: 100%;
+  }
+  .food__image{
+    width: 100%;
+    border-radius: 8px 8px ;
+    /* top,right,bottom,left*/
+  }
+  .food__card__description{
+    padding:15px ;
+  }
   
   @media (min-width: 768px) {
     .navbar {
